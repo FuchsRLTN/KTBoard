@@ -17,6 +17,7 @@ else:
     print("nix")
 
 
+print("ergebnis:")
 print(score_party1_critical)
 
 
