@@ -7,6 +7,10 @@ score_party1_kill = 0
 score_party1_secret = 0
 
 
+print("ergebnis:")
+print(score_party1_critical)
+
+
 
 points = ["Critical", "Kill", "Secret"]
 selection = st.pills("Scored for", points, selection_mode="single")
@@ -19,7 +23,5 @@ score_party1_critical = score_party1_critical +1
 ##    print("nix")
 
 
-print("ergebnis:")
-print(score_party1_critical)
 
 
