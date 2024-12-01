@@ -7,8 +7,8 @@ score_party1_kill = 0
 score_party1_secret = 0
 
 
-print("ergebnis:")
-print(score_party1_critical)
+st.write("ergebnis:")
+st.write(score_party1_critical)
 
 
 
