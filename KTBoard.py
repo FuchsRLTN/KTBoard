@@ -11,10 +11,12 @@ score_party1_secret = 0
 points = ["Critical", "Kill", "Secret"]
 selection = st.pills("Scored for", points, selection_mode="single")
 
-if selection in ["Critical"]:
-    score_party1_critical = score_party1_critical +1
-else:
-    print("nix")
+
+##if selection in ["Critical"]:
+
+score_party1_critical = score_party1_critical +1
+##else:
+##    print("nix")
 
 
 print("ergebnis:")
